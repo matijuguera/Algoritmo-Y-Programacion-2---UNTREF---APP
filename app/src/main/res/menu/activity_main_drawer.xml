@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/paginaP"
+            android:title="Pagina Principal" />
+        <item
+            android:id="@+id/clases"
+            android:title="Clases" />
+        <item
+            android:id="@+id/ejercicios"
+            android:title="Guia de ejercicios" />
+        <item
+            android:id="@+id/material"
+            android:title="Material Complementario" />
+        <item
+            android:id="@+id/tps"
+            android:title="Trabajos Practicos" />
+
+    </group>
+
+
+</menu>
