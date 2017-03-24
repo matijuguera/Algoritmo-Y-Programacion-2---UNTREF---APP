@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
                 home.loadUrl("javascript:(function() { " +
+                        "document.getElementById('sites-chrome-sidebar-left').style.display='none';})()");
+                home.loadUrl("javascript:(function() { " +
                         "document.getElementById('sites-chrome-header-wrapper').style.display='none';})()");
             }
         });
